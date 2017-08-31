@@ -15,4 +15,9 @@ public class GreetingServiceEnglish implements GreetingService {
     public String sayHello() {
         return greeting;
     }
+
+    @Override
+    public String sayHello(String name) {
+        return "Hello " + name;
+    }
 }
