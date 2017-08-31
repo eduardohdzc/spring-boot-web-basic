@@ -1,3 +1,8 @@
 spring.profiles.active: es
 
+---
+spring.profiles: en
+greeting: Hello World
+---
+spring.profiles: es
 greeting: Hola Mundo
